@@ -1,0 +1,40 @@
+ed Future work:
+
+Version 0.1 and 0.1p: 
+-Calculation of the wind spectrum of a full developed state with wind corrections from the zone at different atmospheric stabilitiy approximations. ->Done!, revising upward wind velocity profile calculations for wind corrections in the inferior layer of the sea/atmosphere boundary.
+-Two version code to use plplot at a library to create the spectrum plots. ->GTK4 was added to show the calculations of the spectrums!.
+-Insertion of data streams as defined by the NDBC system sampling methods as used by the NOAA. -> In the making!, will be implemented using an dummy ATMEL controller.
+-Extraction of the wave model conditions using a set of relationships to depict underwater wave weather conditions. ->In the making!, will be later connected to blaktern.
+
+Version 0.2 and 0.2p: 
+-Calculation of the wind spectrum that depends on the local area of propagation depending on the area and time of the wind blowing.
+-Local geographical location using latitude and longitude coordinates for a given system streamming data.
+
+
+Version 0.3 and 0.3p: 
+-Calculation of the wind spectrum at a two spectrum system given a far field and close field, using two wave field components.
+-Retrieve data from two different systems averaging its conditions on time and space and calculating its fetch vs time conditions.
+
+
+Version 0.4 and 0.4p: 
+-Calculation of the wind spectrum at a multi variable spectrum system given a far field, regional field and close wind field, using three wave field components.
+
+
+Version 0.5 and 0.5p: 
+-Calculation of the wind spectrum at a multi variable spectrum on a multi device system with contributions given by the averaging system at differente area and time scales.
+
+
+
+Version 0.6 and 0.6p: 
+-Calculation of the wind spectrum at a multi variable spectrum on a multi device system with contributions given by the averaging system at differente area and time scales.
+
+
+
+.
+.
+.
+
+Pre 1.1
+-REwrite of the code using dynamic memory allocation, core dynamic, dynamic individual data streams.
+
+Release and start merging with black tern ( wave field program) and grey rabbit (IA interpreting engine) 
